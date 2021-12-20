@@ -1,0 +1,114 @@
+nav{
+ height: 8rem;
+   
+    
+
+}
+.nav-left{
+    margin-left: 8rem;
+}
+.nav-left img{
+    width: 15rem;
+    height: 100%;
+    
+}
+.nav-left img{
+    width: 10rem;
+    height: auto;
+    margin: 1rem 0;
+}
+
+.nav-rigth li{
+  
+    font-size: 1.6rem;
+    
+}
+.nav-rigth li a{
+    color: white;
+    
+}
+.nav-rigth .nav-profile{
+   
+    width: 7rem;
+   
+    
+    
+}
+.nav-profile :hover{
+    color: #2cd573;
+}
+#profile-cirlce{
+    font-size: 2.5rem;
+    
+    
+}
+
+
+
+
+.main-top{
+    
+    height: 60rem;
+    
+   
+    
+   
+}
+.main-top__content{
+   width: 110rem;
+   min-width: 60rem;
+   padding: 8rem 0;
+    height: 59rem;
+   
+    
+    
+}
+
+
+ #main-top__hastag{
+font-size: 14px;
+
+}
+#main-top__title{
+font-size: 40px;
+width: 63rem;
+
+}
+#main-top__paragraph{
+font-size: 23px;
+width: 50rem;
+
+}
+.download-buttons{
+    width: 26rem;
+   
+}
+
+.download-buttons button ul{
+    width: 12rem;
+    height: 4rem;
+    border-radius: 7px;
+   
+   
+}
+.download-buttons__logo img{
+    width: 2rem;
+   
+}
+.download-buttons__text{
+   
+    width: 8rem;
+    height: 2.5rem;
+    
+}
+.download-buttons__text #upper-text{
+    font-size: 7px;
+}
+.download-buttons__text #bottom-text{
+    font-size: 14px;
+}
+#featured-content{
+    font-size: 16px;
+    
+
+}

@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index,follow">
     <meta name="description" content="Hice un clon de estpotify y te lo muestro">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./mediaQueries/phone.css" media="screen and (min-width:320px)">
     <link rel="stylesheet" href="./mediaQueries/tablet.css" media="screen and (min-width:700px)">
     <link rel="stylesheet" href="./mediaQueries/desktop.css" media="screen and (min-width:1200px)">
@@ -46,11 +50,11 @@
     </header>
     <main>
        <section class="main-top">
-          <div class="main-top__content">
-            <ul>
+          
+            <ul class="main-top__content">
                 <li id="main-top__hastag"><span >#MI2021ENSPOTIFY</span>
                 </li>
-                <li id="main-top__title"><h1> Tu 2021 en spotyfy está listo. </h1></li>
+                <li id="main-top__title"><h1> Tu 2021 en Spotyfy está listo. </h1></li>
                 <li id="main-top__paragraph">Pero solo esta disponible en la aplicacion de Spotify. Descárgala ahora para descubrir más</li>
                 <li class="download-buttons">
                     <button>
@@ -66,19 +70,34 @@
                     </button>
                     <button>
                      <ul>
-                         <li>
-                          
+                         <li class="download-buttons__logo">
+                          <img src="./img/Gplaylogo.png" alt="">
                          </li>
-                         <li>
-                          <span>DISPONIBLE EN</span>
-                          <span>Google Play</span>
+                         <li class="download-buttons__text">
+                          <p id="upper-text">DISPONIBLE EN</p>
+                          <p id="bottom-text">Google Play</p>
                          </li>
                      </ul>
                  </button>
                 </li>
-                <li> <a href="https://open.spotify.com/genre/2021-page?_ga=2.252023305.127237352.1639845619-1205548929.1636740042">Escucha tu contenido destacado de 2021 aqui</a></li>
+                <li id="featured-content"> <a href="https://open.spotify.com/genre/2021-page?_ga=2.252023305.127237352.1639845619-1205548929.1636740042">Escucha tu contenido destacado de 2021 aqui</a></li>
             </ul>
           </div>
+       </section>
+       <section  class="main-bottom">
+           <u class="main-bottom__content">
+              
+                <li><h1>¿Tienes ganas de escuchar algo?</h1></li>
+               <li>Empieza a escuchar los mejores nuevos lanzamientos</li>
+               <li>
+                   <a href="https://open.spotify.com/browse?_ga=2.157609786.1202424292.1640026882-1205548929.1636740042">
+                    <button>
+                        Abir reproductor web
+                    </button>
+                   </a>
+               </li>
+
+           </u>
        </section>
     </main>
     <footer>
