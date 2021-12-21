@@ -35,7 +35,7 @@ nav{
     
 }
 .nav-profile :hover{
-    color: #2cd573;
+    color: #d54e2c;
 }
 #profile-cirlce{
     font-size: 2.5rem;
@@ -47,19 +47,19 @@ nav{
 
 
 .main-top{
+height: 60rem;
+
+   background-position: left 48rem top -80rem;
+    background-color: #f270b9;
     
-    height: 60rem;
-    
-   
-    
-   
 }
 .main-top__content{
    width: 110rem;
    min-width: 60rem;
    padding: 8rem 0;
     height: 59rem;
-   
+    align-items: flex-start;
+    padding: 8rem 0;
     
     
 }
@@ -72,6 +72,7 @@ font-size: 14px;
 #main-top__title{
 font-size: 40px;
 width: 63rem;
+text-align: left;
 
 }
 #main-top__paragraph{
@@ -83,14 +84,16 @@ width: 50rem;
     width: 26rem;
    
 }
-
-.download-buttons button ul{
-    width: 12rem;
-    height: 4rem;
-    border-radius: 7px;
-   
+.download-buttons__both{
+    width: 26rem;
+    display: block;
    
 }
+
+.unique-button{
+    display: none;
+}
+
 .download-buttons__logo img{
     width: 2rem;
    
