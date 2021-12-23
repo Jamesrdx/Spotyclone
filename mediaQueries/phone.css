@@ -1,77 +1,26 @@
-
-
-.main-top{
-    display: flex;
-    
-    height: 46rem;
-    width: 100%;
-    
-   background-position: left 315rem top -40rem;
-    
-    
-   
-}
 .main-top__content{
-   width: 20rem;
-   height: 35rem;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   align-items: center;
-   margin: auto auto;
-   
-    color: #25336d;
-    
-    
-    
-}
-
-.main-top__content  li{
-    list-style: none;
-}
- #main-top__hastag{
-font-size: 14px;
-
-}
-#main-top__title{
-font-size: 20px;
-width: 30rem;
-text-align: center;
-
-}
-#main-top__paragraph{
-font-size: 20px;
-width: 36rem;
-text-align: center;
-
-}
-.download-buttons{
-    width: 26rem;
+    width: 35rem;
+    height: 35rem;
     display: flex;
-    justify-content: center;
-}
-
-.download-buttons__both{
-    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto auto;
     
-    
-}
-.unique-button{
-    display: block;
-    width: 21rem;
-    height: 4.5rem;
-    border-radius: 500px;
+     color: #25336d;
+     
+     
+     
+ }
+ #main-top__paragraph{
     font-size: 20px;
-    color: white;
-    background-color: #25336d;
+    width: 35rem;
+    text-align: center;
+    
+    }
 
-}
-.unique-button a{
-    color: white;
-}
-
-#featured-content{
-    font-size: 16px;
-    text-decoration:underline;
-
-}
+    #featured-content{
+        font-size: 16px;
+        text-decoration:underline;
+    
+    }

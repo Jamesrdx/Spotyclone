@@ -8,8 +8,9 @@
     <meta name="robots" content="index,follow">
     <meta name="description" content="Hice un clon de estpotify y te lo muestro">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./mediaQueries/phone.css" media="screen and (min-width:320px)">
-    <link rel="stylesheet" href="./mediaQueries/tablet.css" media="screen and (min-width:765px)">
+    <link rel="stylesheet" href="./mediaQueries/phoneMini.css" media="screen and (min-width:320px)">
+    <link rel="stylesheet" href="./mediaQueries/phone.css" media="screen and (min-width:400px)">
+    <link rel="stylesheet" href="./mediaQueries/tablet.css" media="screen and (min-width:760px)">
     <link rel="stylesheet" href="./mediaQueries/desktop.css" media="screen and (min-width:1200px)">
    
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -44,12 +45,18 @@
                     <li>Cerrar sesión</li>
                 </ul>
                 </li>
-                <li><button class="nav-toogle">
-                    <i class="fas fa-bars"></i>
-                </button></li>
 
             </ul>
+
+            <section>
+                <button class="nav-toogle">
+                <i class="fas fa-bars"></i>
+                </button>
+            </section>
+          
         </nav>
+        
+      
     </header>
     <main>
        <section class="main-top">
@@ -93,11 +100,11 @@
        <section  class="main-bottom">
            <u class="main-bottom__content">
               
-                <li><h1>¿Tienes ganas de escuchar algo?</h1></li>
-               <li>Empieza a escuchar los mejores nuevos lanzamientos</li>
+                <li id="title"><h1>¿Tienes ganas de escuchar algo?</h1></li>
+               <li id="title2">Empieza a escuchar los mejores nuevos lanzamientos</li>
                <li>
                    <a href="https://open.spotify.com/browse?_ga=2.157609786.1202424292.1640026882-1205548929.1636740042">
-                    <button>
+                    <button class="repButton">
                         Abir reproductor web
                     </button>
                    </a>
@@ -107,7 +114,9 @@
        </section>
     </main>
     <footer>
-
+        <nav>
+            
+        </nav>
     </footer>
 </body>
 </html>

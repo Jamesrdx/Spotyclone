@@ -19,6 +19,7 @@ nav{
     background-color: black;
     color: white;
     display: grid;
+    align-items: center;
     grid-template-columns: 1fr 1fr;
 
 }
@@ -37,49 +38,8 @@ nav{
     height: auto;
     margin: 1rem 0;
 }
-.nav-rigth{
-    display: flex;
-    align-items: center;
-    margin: 0 6rem;
-    justify-self: right;
-}
-.nav-rigth li{
-    margin-left: 1rem;
-    list-style: none;
-    font-size: 1.6rem;
-    
-}
-.nav-rigth li a{
-    color: white;
-    
-}
-.nav-rigth .nav-profile{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 7rem;
-   
-    
-    
-}
-.nav-profile :hover{
-    color: #2cd573;
-}
-#profile-cirlce{
-    font-size: 2.5rem;
-    
-    
-}
-#arrow-down ul{
-    background-color: white;
-    display: none;
-}
-#arrow-down:active > ul{
-    display: block;
-}
-#arrow-down ul li{
-    color: black;
-}
+
+
 .nav-toogle{
     color: white;
     background: none;
@@ -117,12 +77,9 @@ nav{
 }
  #main-top__hastag{
 font-size: 14px;
-
 }
 #main-top__title{
 font-size: 40px;
-
-
 }
 #main-top__paragraph{
 font-size: 23px;
@@ -130,9 +87,6 @@ width: 50rem;
 
 }
 .download-buttons{
-  
-   
- 
     display: flex;
     justify-content: space-between;
 }
@@ -173,4 +127,52 @@ width: 50rem;
     font-size: 16px;
     text-decoration:underline;
 
+}
+.main-bottom{
+    width: 100%;
+    background-color: #3148a4;
+    background-image: url("https://content-tooling.spotifycdn.com/images/af63e367-ad10-4063-a8e2-5a50ae2a4b28_lie_circles-mobile.svg");
+    background-position: 65% 55%;
+    background-size: auto 190%;
+    background-repeat: no-repeat;
+}
+   .main-bottom__content{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    height: 33rem;
+    padding: 4.8px;   
+    color:#2cd573 ;
+    text-decoration: none;
+   }
+   .main-bottom__content li{
+    list-style: none;
+    
+    
+   }
+#title{
+    font-size: 24px;
+    margin: 0px 0px 8px ;
+}
+#title2{
+    font-size: 18px;
+    margin: 16px 0px ;
+    
+}
+.repButton{
+    display: block;
+    background-color: #2cd573;
+    color: #3148a4;
+    width: 24rem;
+    height: 5rem;
+    border-radius: 12rem;
+    font-size: 17px;
+    border: none;
+}
+.repButton:hover{
+    cursor: pointer;
 }

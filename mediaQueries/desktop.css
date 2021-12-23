@@ -17,9 +17,17 @@ nav{
     height: auto;
     margin: 1rem 0;
 }
-
+.nav-rigth{
+ 
+    display: flex;
+    align-items: center;
+    margin: 3rem 6rem;
+    justify-self: right;
+}
 .nav-rigth li{
-  
+    margin-left: 1rem;
+    list-style: none;
+    font-size: 1.6rem;
     font-size: 1.6rem;
     
 }
@@ -28,24 +36,30 @@ nav{
     
 }
 .nav-rigth .nav-profile{
-   
-    width: 7rem;
-   
-    
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 7rem;  
 }
 .nav-profile :hover{
-    color: #d54e2c;
+    color: #2cd573;
 }
 #profile-cirlce{
     font-size: 2.5rem;
     
     
 }
+#arrow-down ul{
+    background-color: white;
+    display: none;
+}
 
-
-
-
+#arrow-down:active > ul{
+    display: block;
+}
+.nav-toogle{
+    display: none;
+}
 .main-top{
 height: 60rem;
 
@@ -115,3 +129,9 @@ width: 50rem;
     
 
 }
+
+   .main-bottom__content{
+    align-items: flex-start;
+    
+   }
+   
