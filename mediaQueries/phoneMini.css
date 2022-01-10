@@ -1,5 +1,11 @@
 
-
+nav{
+    max-width: 750px;
+}
+.nav-left img{
+    width: 8.9rem;
+    height: auto;
+}
 nav section{
     margin: 3rem;
     
@@ -96,3 +102,27 @@ text-align: center;
 .main-bottom{
     height: 48rem;
 }
+footer{
+    padding: 50px 0px 20px 0;
+}
+.footer-ctr{
+    width: 100%;
+    
+}
+
+.footer-pages dl {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 21.4rem;
+    justify-content: flex-end;
+}
+.footer-ctr .footer-media{
+    margin-top: 12rem;
+    margin-bottom: 1.5rem;
+}
+.footer-media__circle li{
+    width: 4.4rem;
+    height: 4.4rem;
+}
+

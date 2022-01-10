@@ -1,5 +1,13 @@
+nav{
+    max-width: 97rem;
+}
 .nav-toogle{
     display: block;
+}
+.nav-left img{
+    width: 13rem;
+    height: auto;
+    margin: 1rem 0;
 }
 .nav-rigth{
     display: none;
@@ -126,4 +134,15 @@ width: 50rem;
     border-radius: 12rem;
     font-size: 20px;
     border: none;
+}
+.footer-ctr{
+    width: 75rem;
+    
+}
+.footer-pages{
+    display: flex;
+    flex-direction: row;
+}
+.footer-pages dl{
+    width: 30rem;
 }
